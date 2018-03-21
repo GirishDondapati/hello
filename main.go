@@ -11,6 +11,7 @@ func main() {
 	ownFuncaton(var1)
 
 	hel.Variables2()
+	hel.ConstantsEx()
 
 }
 
