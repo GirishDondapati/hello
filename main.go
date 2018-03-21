@@ -3,9 +3,14 @@ package main
 import (
 	"fmt"
 	hel "hello/examples"
+	"os"
 )
 
 func main() {
+	argsWithProg := os.Args
+	argsWithoutProg := os.Args[1:]
+	fmt.Println("argsWithProg ", argsWithProg)
+	fmt.Println("argsWithoutProg ", argsWithoutProg)
 	fmt.Printf("hello, world\n")
 	var1 := "girish"
 	ownFuncaton(var1)
