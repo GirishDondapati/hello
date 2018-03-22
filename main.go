@@ -16,7 +16,11 @@ func main() {
 	ownFuncaton(var1)
 
 	hel.Variables2()
+	fmt.Printf("Constants example started")
 	hel.ConstantsEx()
+
+	fmt.Printf("For loop example started")
+	hel.ForLoopEx()
 
 }
 
