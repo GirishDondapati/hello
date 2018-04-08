@@ -7,21 +7,27 @@ import (
 )
 
 func main() {
-	argsWithProg := os.Args
-	argsWithoutProg := os.Args[1:]
-	fmt.Println("argsWithProg ", argsWithProg)
-	fmt.Println("argsWithoutProg ", argsWithoutProg)
+	//print linein consol
 	fmt.Printf("hello, world\n")
+
+	//Calling functions
+	main2()
 	var1 := "girish"
 	ownFuncaton(var1)
 
 	hel.Variables2()
+
+	//Read input from command line
+	argsWithProg := os.Args
+	argsWithoutProg := os.Args[1:]
+	fmt.Println("argsWithProg ", argsWithProg)
+	fmt.Println("argsWithoutProg ", argsWithoutProg)
+
 	fmt.Printf("Constants example started")
 	hel.ConstantsEx()
 
 	fmt.Printf("For loop example started")
 	hel.ForLoopEx()
-
 }
 
 func main2() {

@@ -1,2 +1,2 @@
 # hello
-go lang example project
+go lang Simple Example Project
